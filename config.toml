@@ -12,11 +12,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = "OneResume"
+    description = "Matthew Martin | OneResume"
 
 
-    primaryColor = "#54B689"
+    primaryColor = "#FF8200"
     textPrimaryColor = "#292929"
 
 
@@ -24,9 +24,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Simon Doe"
-        tagline = "Senior Software Engineer"
-        avatar = "avatar.png"
+        name = "Matthew Martin"
+        tagline = ""
+        avatar = "https://media-exp1.licdn.com/dms/image/C4E03AQF_7cb9zzgDgQ/profile-displayphoto-shrink_400_400/0/1516935147316?e=1639612800&v=beta&t=pxSoqifEZzYO4Q0bsLXpvCLG09E90iB6YqKT-ibIku8"
 
 
 
@@ -36,20 +36,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "New York"
+        location = "Knoxville, TN"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "0123 4567 890"
+        url = "tel:865-360-2400"
+        text = "+1 (865) 360-2400"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:#"
-        text = "simon.doe@yourwebsite.com"
-        [[params.contact.list]]
-        icon = "fas fa-globe"
-        url = "#"
-        text = "www.yourwebsite.com"
+        url = "mailto:matthew_martin4@apple.com"
+        text = "matthew_martin4@apple.com"
 
 
 
@@ -58,7 +54,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.skills]
-        enable = true
+        enable = false
 
         [[params.skills.list]]
         title = "Technical"
@@ -99,13 +95,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
-        [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
+        degree = "Bachelor of Arts and Science in Mathematics"
+        university = "University of Tennessee, Knoxville"
+        dates = "Expected Graduation: May 2022"
 
 
 
@@ -115,7 +107,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.awards]
-        enable = true
+        enable = false
 
         [[params.awards.list]]
         name = "Award Lorem Ipsum"
@@ -140,8 +132,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "English"
         level = "Native"
         [[params.languages.list]]
-        name = "Spanish"
-        level = "Professional"
+        name = "German"
+        level = "Conversational"
 
 
 
@@ -151,7 +143,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.interests]
-        enable = true
+        enable = false
 
         [[params.interests.list]]
         name = "Climbing"
@@ -171,7 +163,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+        text = "I am an enthusiastic, well-rounded, technically-savy team player who learns quickly and has a strong eye for detail. I am a creator at heart, and I am always looking out for ways to make a process or product more efficient. I move quickly but with precision, and I can easily adapt to any situation."
 
 
 
@@ -184,79 +176,64 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "Senior Software Engineer"
-        dates = "2019 - Present"
-        company = "Google"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        title = "Operations Specialist"
+        dates = "November 2018 - Present"
+        company = "Apple, Inc."
+        details = ""
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Helped manage over 10,000 lines of inventory and facilitated daily cycle counts."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Used RIO to manage Apple Owned Units across a retail store"
         [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+        details = "Supported daily operations by receiving inventory and providing runner and operator support"
+        [[params.experience.list.items]]
+        details = "Accurately guaged and set priorities to support store needs during peak times."
+        [[params.experience.list.items]]
+        details = "Designed a system to improve the process of replacing Isaacs or other In-Store Use devices, reducing down-time and improving efficiency for all team members. This system is shared on Loop."
 
         [[params.experience.list]]
-        title = "Lead Software Developer"
-        dates = "2016 - 2019"
-        company = "Apple"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        title = "Project Manager and Technical Support Specialist"
+        dates = "June 2017 - July 2018"
+        company = "Neighborhood Nerds / Gizmo Cares, inc."
+        details = ""
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "Managed operations and supported over four hundred clients with IT helpdesk services."
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "Visited clients in their home or office to set up, troubleshoot, diagnose and fix technology, ensuring total customer satisfaction with resolution."
+        [[params.experience.list.items]]
+        details = "Designed and implemented processes to optimize workflow company-wide."
+        [[params.experience.list.items]]
+        details = "Met with investors and executives to improve employee's ability to ensure accurate support and to complete tickets in a reproducible and timely fashion."
+        [[params.experience.list.items]]
+        details = "Assisted with increase of client membership from 225 to 450 clients in one year."
 
         [[params.experience.list]]
-        title = "Senior Software Developer"
-        dates = "2014 - 2016"
-        company = "Dropbox"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "Tier 1 Technical Support Intern"
+        dates = "January 2015 - July 2016"
+        company = "Oak Ridge Schools Technology Department"
+        details = ""
+        [[params.experience.list.items]]
+        details = "Aided with the school system's transition to individual laptops for students."
+        [[params.experience.list.items]]
+        details = "Used excel to catalogue over 6,000 devices across the entire school district."
+        [[params.experience.list.items]]
+        details = "Setup and repair of 450 computers and printers within Oak Ridge High School."
 
         [[params.experience.list]]
-        title = "Senior Developer"
-        dates = "2013 - 2014"
-        company = "Uber"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
-
-        [[params.experience.list]]
-        title = "Backend Developer"
-        dates = "2014 - 2016"
-        company = "Amazon"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.experience.list]]
-        title = "Frontend Developer"
-        dates = "2013 - 2014"
-        company = "Startup"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
-
-
-
-
-
-
-
-
-
-
-
-    [params.projects]
-        enable = true
-
-        [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
-        [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
+        title = "Team Member and Leader"
+        dates = "2012 - 2016"
+        company = "First Robotics Competition Team 4265: Secret City Wildbots"
+        details = ""
+        [[params.experience.list.items]]
+        details = "Led team to triple size of sponsor roster and raised over $120,000 across two years."
+        [[params.experience.list.items]]
+        details = "Led team to develop the electrical subsystem for a world-class, competition-winning robot."
+        [[params.experience.list.items]]
+        details = "Designed and manufactured prototypes by using SolidWorks (CAD), 3D printers, laser cutters and CNC machines."
+        [[params.experience.list.items]]
+        details = "Won awards in all 4 years of competition, including Engineering Inspiration, World Finalist, Gracious Professionalism, Innovation in Control Award, and Excellence in Engineering Award at the World Championship."
+        [[params.experience.list.items]]
+        details = "Implemented SCRUM project management system to organize tasks and manage team functions."
 
 
 
@@ -270,17 +247,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.information.list]]
-        title = "Papers"
+        title = "Extracurriculars"
         [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
+        details = "2018 - 2020 · Pride of the Southland Marching Band Clarinet Squad Leader"
         [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
-
-
+        details = "2018 · Level 1 High Power Rocketry Certification Program"
+        [[params.information.list.items]]
+        details = "2016 - Present · Glacial - Audo Engineer, Music Producer and DJ"
 
 
 
@@ -291,17 +264,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.social.list]]
-        icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
-        [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
+        url = "//linkedin.com/in/matthew-h-martin"
+        title = "matthew-h-martin"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        url = "//twitter.com/glacialofficial"
+        title = "@glacialofficial"
 
 
 
