@@ -122,7 +122,7 @@ name = "English"
 level = "Conversational"
 name = "German"
 [params.profile]
-avatar = "4bef98fe-8543-47cd-8f15-d96b064146ff.jpeg"
+avatar = "/uploads/4bef98fe-8543-47cd-8f15-d96b064146ff.jpeg"
 enable = true
 name = "Matthew Martin"
 tagline = ""
