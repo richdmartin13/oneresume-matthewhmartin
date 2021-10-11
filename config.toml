@@ -1,16 +1,8 @@
-# Page settings
-
 baseURL = "/"
-languageCode = "en"
-title = ""
-theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
-
-
-
-
-
-
+languageCode = "en"
+theme = "hugo-devresume-theme"
+title = ""
 [params]
     author = "OneResume"
     description = "Matthew Martin | OneResume"

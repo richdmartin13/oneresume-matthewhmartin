@@ -1,0 +1,247 @@
+---
+label: Config
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: languageCode
+  label: languageCode
+- type: text
+  name: title
+  label: title
+- type: text
+  name: theme
+  label: theme
+- type: text
+  name: googleAnalytics
+  label: googleAnalytics
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: text
+    name: author
+    label: author
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: primaryColor
+    label: primaryColor
+  - type: text
+    name: textPrimaryColor
+    label: textPrimaryColor
+  - type: field_group
+    name: profile
+    label: profile
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: tagline
+      label: tagline
+    - type: file
+      name: avatar
+      label: avatar
+  - type: field_group
+    name: contact
+    label: contact
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: location
+      label: location
+    - type: field_group_list
+      name: list
+      label: list
+      fields:
+      - type: text
+        name: icon
+        label: icon
+      - type: text
+        name: url
+        label: url
+      - type: text
+        name: text
+        label: text
+  - type: field_group
+    name: skills
+    label: skills
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: field_group_list
+      name: list
+      label: list
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: field_group_list
+        name: items
+        label: items
+        fields:
+        - type: text
+          name: details
+          label: details
+  - type: field_group
+    name: education
+    label: education
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: field_group_list
+      name: list
+      label: list
+      fields:
+      - type: text
+        name: degree
+        label: degree
+      - type: text
+        name: university
+        label: university
+      - type: text
+        name: dates
+        label: dates
+  - type: field_group
+    name: awards
+    label: awards
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: field_group_list
+      name: list
+      label: list
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: text
+        name: body
+        label: body
+      - type: text
+        name: date
+        label: date
+  - type: field_group
+    name: languages
+    label: languages
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: field_group_list
+      name: list
+      label: list
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: text
+        name: level
+        label: level
+  - type: field_group
+    name: interests
+    label: interests
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: field_group_list
+      name: list
+      label: list
+      fields:
+      - type: text
+        name: name
+        label: name
+  - type: field_group
+    name: summary
+    label: summary
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: textarea
+      name: text
+      label: text
+  - type: field_group
+    name: experience
+    label: experience
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: field_group_list
+      name: list
+      label: list
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: dates
+        label: dates
+      - type: text
+        name: company
+        label: company
+      - type: text
+        name: details
+        label: details
+      - type: field_group_list
+        name: items
+        label: items
+        fields:
+        - type: text
+          name: details
+          label: details
+  - type: field_group
+    name: information
+    label: information
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: field_group_list
+      name: list
+      label: list
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: field_group_list
+        name: items
+        label: items
+        fields:
+        - type: text
+          name: details
+          label: details
+  - type: field_group
+    name: social
+    label: social
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: field_group_list
+      name: list
+      label: list
+      fields:
+      - type: text
+        name: icon
+        label: icon
+      - type: text
+        name: url
+        label: url
+      - type: text
+        name: title
+        label: title
