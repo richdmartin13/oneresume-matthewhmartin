@@ -1,278 +1,169 @@
-# Page settings
-
 baseURL = "/"
-languageCode = "en"
-title = ""
-theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
-
-
-
-
-
-
+languageCode = "en"
+theme = "hugo-devresume-theme"
+title = ""
 [params]
-    author = "OneResume"
-    description = "Matthew Martin | OneResume"
-
-
-    primaryColor = "#FF8200"
-    textPrimaryColor = "#292929"
-
-
-
-
-    [params.profile]
-        enable = true
-        name = "Matthew Martin"
-        tagline = ""
-        avatar = "https://media-exp1.licdn.com/dms/image/C4E03AQF_7cb9zzgDgQ/profile-displayphoto-shrink_400_400/0/1516935147316?e=1639612800&v=beta&t=pxSoqifEZzYO4Q0bsLXpvCLG09E90iB6YqKT-ibIku8"
-
-
-
-
-
-
-
-    [params.contact]
-        enable = true
-        location = "Knoxville, TN"
-
-        [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:865-360-2400"
-        text = "+1 (865) 360-2400"
-        [[params.contact.list]]
-        icon = "fas fa-envelope-square"
-        url = "mailto:matthew_martin4@apple.com"
-        text = "matthew_martin4@apple.com"
-
-
-
-
-
-
-
-    [params.skills]
-        enable = false
-
-        [[params.skills.list]]
-        title = "Technical"
-        [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
-        [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
-        [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
-        [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
-        [[params.skills.list.items]]
-        details = "Object-oriented design"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
-
-        [[params.skills.list]]
-        title = "Professional"
-        [[params.skills.list.items]]
-        details = "Effective communication"
-        [[params.skills.list.items]]
-        details = "Team player"
-        [[params.skills.list.items]]
-        details = "Strong problem solver"
-        [[params.skills.list.items]]
-        details = "Good time management"
-
-
-
-
-
-
-
-
-    [params.education]
-        enable = true
-
-        [[params.education.list]]
-        degree = "Bachelor of Arts and Science in Mathematics"
-        university = "University of Tennessee, Knoxville"
-        dates = "Expected Graduation: May 2022"
-
-
-
-
-
-
-
-
-    [params.awards]
-        enable = false
-
-        [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
-        [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
-
-
-
-
-
-
-
-
-    [params.languages]
-        enable = true
-
-        [[params.languages.list]]
-        name = "English"
-        level = "Native"
-        [[params.languages.list]]
-        name = "German"
-        level = "Conversational"
-
-
-
-
-
-
-
-
-    [params.interests]
-        enable = false
-
-        [[params.interests.list]]
-        name = "Climbing"
-        [[params.interests.list]]
-        name = "Snowboarding"
-        [[params.interests.list]]
-        name = "Photography"
-        [[params.interests.list]]
-        name = "Travelling"
-
-
-
-
-
-
-
-
-    [params.summary]
-        enable = true
-        text = "I am an enthusiastic, well-rounded, technically-savy team player who learns quickly and has a strong eye for detail. I am a creator at heart, and I am always looking out for ways to make a process or product more efficient. I move quickly but with precision, and I can easily adapt to any situation."
-
-
-
-
-
-
-
-
-    [params.experience]
-        enable = true
-
-        [[params.experience.list]]
-        title = "Operations Specialist"
-        dates = "November 2018 - Present"
-        company = "Apple, Inc."
-        details = ""
-        [[params.experience.list.items]]
-        details = "Helped manage over 10,000 lines of inventory and facilitated daily cycle counts."
-        [[params.experience.list.items]]
-        details = "Used RIO to manage Apple Owned Units across a retail store"
-        [[params.experience.list.items]]
-        details = "Supported daily operations by receiving inventory and providing runner and operator support"
-        [[params.experience.list.items]]
-        details = "Accurately guaged and set priorities to support store needs during peak times."
-        [[params.experience.list.items]]
-        details = "Designed a system to improve the process of replacing Isaacs or other In-Store Use devices, reducing down-time and improving efficiency for all team members. This system is shared on Loop."
-
-        [[params.experience.list]]
-        title = "Project Manager and Technical Support Specialist"
-        dates = "June 2017 - July 2018"
-        company = "Neighborhood Nerds / Gizmo Cares, inc."
-        details = ""
-        [[params.experience.list.items]]
-        details = "Managed operations and supported over four hundred clients with IT helpdesk services."
-        [[params.experience.list.items]]
-        details = "Visited clients in their home or office to set up, troubleshoot, diagnose and fix technology, ensuring total customer satisfaction with resolution."
-        [[params.experience.list.items]]
-        details = "Designed and implemented processes to optimize workflow company-wide."
-        [[params.experience.list.items]]
-        details = "Met with investors and executives to improve employee's ability to ensure accurate support and to complete tickets in a reproducible and timely fashion."
-        [[params.experience.list.items]]
-        details = "Assisted with increase of client membership from 225 to 450 clients in one year."
-
-        [[params.experience.list]]
-        title = "Tier 1 Technical Support Intern"
-        dates = "January 2015 - July 2016"
-        company = "Oak Ridge Schools Technology Department"
-        details = ""
-        [[params.experience.list.items]]
-        details = "Aided with the school system's transition to individual laptops for students."
-        [[params.experience.list.items]]
-        details = "Used excel to catalogue over 6,000 devices across the entire school district."
-        [[params.experience.list.items]]
-        details = "Setup and repair of 450 computers and printers within Oak Ridge High School."
-
-        [[params.experience.list]]
-        title = "Team Member and Leader"
-        dates = "2012 - 2016"
-        company = "First Robotics Competition Team 4265: Secret City Wildbots"
-        details = ""
-        [[params.experience.list.items]]
-        details = "Led team to triple size of sponsor roster and raised over $120,000 across two years."
-        [[params.experience.list.items]]
-        details = "Led team to develop the electrical subsystem for a world-class, competition-winning robot."
-        [[params.experience.list.items]]
-        details = "Designed and manufactured prototypes by using SolidWorks (CAD), 3D printers, laser cutters and CNC machines."
-        [[params.experience.list.items]]
-        details = "Won awards in all 4 years of competition, including Engineering Inspiration, World Finalist, Gracious Professionalism, Innovation in Control Award, and Excellence in Engineering Award at the World Championship."
-        [[params.experience.list.items]]
-        details = "Implemented SCRUM project management system to organize tasks and manage team functions."
-
-
-
-
-
-
-
-
-
-    [params.information]
-        enable = true
-
-        [[params.information.list]]
-        title = "Extracurriculars"
-        [[params.information.list.items]]
-        details = "2018 - 2020 · Pride of the Southland Marching Band Clarinet Squad Leader"
-        [[params.information.list.items]]
-        details = "2018 · Level 1 High Power Rocketry Certification Program"
-        [[params.information.list.items]]
-        details = "2016 - Present · Glacial - Audo Engineer, Music Producer and DJ"
-
-
-
-
-
-
-    [params.social]
-        enable = true
-
-        [[params.social.list]]
-        icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/matthew-h-martin"
-        title = "matthew-h-martin"
-        [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/glacialofficial"
-        title = "@glacialofficial"
-
-
-
-
-
+author = "OneResume"
+description = "Matthew Martin | OneResume"
+primaryColor = "#FF8200"
+textPrimaryColor = "#292929"
+[params.awards]
+enable = false
+[[params.awards.list]]
+body = "Microsoft lorem ipsum"
+date = "2019"
+name = "Award Lorem Ipsum"
+[[params.awards.list]]
+body = "Oracle Aenean"
+date = "2017"
+name = "Award Donec Sodales"
+[params.contact]
+enable = true
+location = "Knoxville, TN"
+[[params.contact.list]]
+icon = "fas fa-phone-square"
+text = "+1 (865) 360-2400"
+url = "tel:865-360-2400"
+[[params.contact.list]]
+icon = "fas fa-envelope-square"
+text = "matthew_martin4@apple.com"
+url = "mailto:matthew_martin4@apple.com"
+[params.education]
+enable = true
+[[params.education.list]]
+dates = "Expected Graduation: May 2022"
+degree = "Bachelor of Arts and Science in Mathematics"
+university = "University of Tennessee, Knoxville"
+[params.experience]
+enable = true
+[[params.experience.list]]
+company = "Apple, Inc."
+dates = "November 2018 - Present"
+details = ""
+title = "Operations Specialist"
+[[params.experience.list.items]]
+details = "Helped manage over 10,000 lines of inventory and facilitated daily cycle counts."
+[[params.experience.list.items]]
+details = "Used RIO to manage Apple Owned Units across a retail store"
+[[params.experience.list.items]]
+details = "Supported daily operations by receiving inventory and providing runner and operator support"
+[[params.experience.list.items]]
+details = "Accurately guaged and set priorities to support store needs during peak times."
+[[params.experience.list.items]]
+details = "Designed a system to improve the process of replacing Isaacs or other In-Store Use devices, reducing down-time and improving efficiency for all team members. This system is shared on Loop."
+[[params.experience.list]]
+company = "Neighborhood Nerds / Gizmo Cares, inc."
+dates = "June 2017 - July 2018"
+details = ""
+title = "Project Manager and Technical Support Specialist"
+[[params.experience.list.items]]
+details = "Managed operations and supported over four hundred clients with IT helpdesk services."
+[[params.experience.list.items]]
+details = "Visited clients in their home or office to set up, troubleshoot, diagnose and fix technology, ensuring total customer satisfaction with resolution."
+[[params.experience.list.items]]
+details = "Designed and implemented processes to optimize workflow company-wide."
+[[params.experience.list.items]]
+details = "Met with investors and executives to improve employee's ability to ensure accurate support and to complete tickets in a reproducible and timely fashion."
+[[params.experience.list.items]]
+details = "Assisted with increase of client membership from 225 to 450 clients in one year."
+[[params.experience.list]]
+company = "Oak Ridge Schools Technology Department"
+dates = "January 2015 - July 2016"
+details = ""
+title = "Tier 1 Technical Support Intern"
+[[params.experience.list.items]]
+details = "Aided with the school system's transition to individual laptops for students."
+[[params.experience.list.items]]
+details = "Used excel to catalogue over 6,000 devices across the entire school district."
+[[params.experience.list.items]]
+details = "Setup and repair of 450 computers and printers within Oak Ridge High School."
+[[params.experience.list]]
+company = "First Robotics Competition Team 4265: Secret City Wildbots"
+dates = "2012 - 2016"
+details = ""
+title = "Team Member and Leader"
+[[params.experience.list.items]]
+details = "Led team to triple size of sponsor roster and raised over $120,000 across two years."
+[[params.experience.list.items]]
+details = "Led team to develop the electrical subsystem for a world-class, competition-winning robot."
+[[params.experience.list.items]]
+details = "Designed and manufactured prototypes by using SolidWorks (CAD), 3D printers, laser cutters and CNC machines."
+[[params.experience.list.items]]
+details = "Won awards in all 4 years of competition, including Engineering Inspiration, World Finalist, Gracious Professionalism, Innovation in Control Award, and Excellence in Engineering Award at the World Championship."
+[[params.experience.list.items]]
+details = "Implemented SCRUM project management system to organize tasks and manage team functions."
+[params.information]
+enable = true
+[[params.information.list]]
+title = "Extracurriculars"
+[[params.information.list.items]]
+details = "2018 - 2020 · Pride of the Southland Marching Band Clarinet Squad Leader"
+[[params.information.list.items]]
+details = "2018 · Level 1 High Power Rocketry Certification Program"
+[[params.information.list.items]]
+details = "2016 - Present · Glacial - Audo Engineer, Music Producer and DJ"
+[params.interests]
+enable = false
+[[params.interests.list]]
+name = "Climbing"
+[[params.interests.list]]
+name = "Snowboarding"
+[[params.interests.list]]
+name = "Photography"
+[[params.interests.list]]
+name = "Travelling"
+[params.languages]
+enable = true
+[[params.languages.list]]
+level = "Native"
+name = "English"
+[[params.languages.list]]
+level = "Conversational"
+name = "German"
+[params.profile]
+avatar = "4bef98fe-8543-47cd-8f15-d96b064146ff.jpeg"
+enable = true
+name = "Matthew Martin"
+tagline = ""
+[params.skills]
+enable = false
+[[params.skills.list]]
+title = "Technical"
+[[params.skills.list.items]]
+details = "JavaScript/Angular/React/Vue"
+[[params.skills.list.items]]
+details = "Python/Ruby/PHP"
+[[params.skills.list.items]]
+details = "Node.js/ASP.NET"
+[[params.skills.list.items]]
+details = "PostgreSQL/MySQL"
+[[params.skills.list.items]]
+details = "Object-oriented design"
+[[params.skills.list.items]]
+details = "Design and implement database structures"
+[[params.skills.list.items]]
+details = "Lead and deliver complex software systems"
+[[params.skills.list]]
+title = "Professional"
+[[params.skills.list.items]]
+details = "Effective communication"
+[[params.skills.list.items]]
+details = "Team player"
+[[params.skills.list.items]]
+details = "Strong problem solver"
+[[params.skills.list.items]]
+details = "Good time management"
+[params.social]
+enable = true
+[[params.social.list]]
+icon = "fab fa-linkedin"
+title = "matthew-h-martin"
+url = "//linkedin.com/in/matthew-h-martin"
+[[params.social.list]]
+icon = "fab fa-twitter-square"
+title = "@glacialofficial"
+url = "//twitter.com/glacialofficial"
+[params.summary]
+enable = true
+text = "I am an enthusiastic, well-rounded, technically-savy team player who learns quickly and has a strong eye for detail. I am a creator at heart, and I am always looking out for ways to make a process or product more efficient. I move quickly but with precision, and I can easily adapt to any situation."
